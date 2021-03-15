@@ -14,9 +14,8 @@ export const MidiaSocial = styled.div`
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    flex-direction: column;
     background-color: white;
-    font-size: 5vw;
+    font-size: 4.5vw;
     div {
         padding: 1vw;
         display: flex;
@@ -24,6 +23,9 @@ export const MidiaSocial = styled.div`
         align-items: flex-start;
         p {
             margin-left: 1vw;
+        }
+        span {
+            margin-left: 4px;
         }
     }
 `;

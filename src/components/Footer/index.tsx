@@ -11,13 +11,13 @@ const Footer: React.FC = () => (
     <Container>
         <MidiaSocial>
             <div>
-                <AiOutlineWhatsApp size={24} /> <p>(83) 9 8161 3615</p>
+                <AiOutlineWhatsApp size={42} /> <p>(83) 9 8161 3615</p>
             </div>
             <div>
-                <AiFillFacebook size={24} /> <p>Lucas Rifa</p>
+                <AiFillFacebook size={42} /> <p>Lucas Rifa</p>
             </div>
             <div>
-                <AiOutlineInstagram size={24} /> <p>@Lucasrifa</p>
+                <AiOutlineInstagram size={42} /> <p>Lucasrifa</p>
             </div>
         </MidiaSocial>
         <Direitos>

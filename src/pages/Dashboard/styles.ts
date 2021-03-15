@@ -38,18 +38,18 @@ export const SlideRifa = styled.div`
 `;
 
 export const TextSlide = styled.div`
-    font-size: 1.3em;
+    font-size: 5vw;
     position: absolute;
-    left: 5vw;
+    left: 10%;
+    top: 31%;
     color: white;
     h3 {
         background-color: #8900e9;
         padding: 6px;
-        font-weight: bold;
+        font-family: 'Lato', sans-serif;
     }
     opacity: 0.8;
     border-radius: 3px;
-    font-weight: bold;
 `;
 
 export const PriceDay = styled.div`
@@ -62,6 +62,7 @@ export const PriceDay = styled.div`
     align-items: center;
     text-align: center;
     padding: 1.5vh;
+    font-family: 'Lato', sans-serif;
 `;
 export const EndDay = styled.div`
     font-size: 5vw;
@@ -72,6 +73,7 @@ export const EndDay = styled.div`
     align-items: center;
     text-align: center;
     color: white;
+    font-family: 'Lato', sans-serif;
 `;
 
 export const CardParticipar = styled.div`
@@ -83,16 +85,16 @@ export const CardParticipar = styled.div`
     align-items: center;
     flex-direction: column;
     text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
 
     div {
         margin: 27px 0;
-        img {
-        }
     }
     h3 {
         margin-top: 0.6em;
-        font-size: 5vw;
-        font-weight: bold;
+        font-size: 6vw;
+        font-weight: 600;
     }
 `;
 
@@ -106,13 +108,16 @@ export const EscolhaSorteio = styled.div`
     }
     h2 {
         color: #062033;
-        font-weight: bold;
         font-size: 6.5vw;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
     }
     p {
         color: #062033;
         font-size: 5vw;
         width: 80vw;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
     }
 `;
 
@@ -130,6 +135,11 @@ export const PassoaPasso = styled.div`
     span {
         width: 80vw;
     }
+    h3 {
+        margin-top: 0.6em;
+        font-size: 6vw;
+        font-weight: 600;
+    }
 `;
 
 export const NumberCard = styled.div`
@@ -140,9 +150,21 @@ export const NumberCard = styled.div`
     flex-direction: column;
     text-align: center;
     max-width: 70vw;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+
+    h2 {
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        font-size: 5vw;
+    }
+
     h1 {
         border: 1px solid white;
         padding: 10vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 8vw;
+
         border-radius: 50%;
         width: 5vw;
         height: 5vh;
@@ -150,10 +172,11 @@ export const NumberCard = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
-        font-ss
     }
     margin: 18px 0;
     p {
+        font-family: 'Lato', sans-serif;
+
         margin: 12px 0;
         font-size: 5vw;
     }

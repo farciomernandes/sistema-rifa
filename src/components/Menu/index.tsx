@@ -12,7 +12,7 @@ const FlexMenu: React.FC = () => (
             <NewItemMenu>
                 <li>
                     <TextMenu href="/">
-                        <CgMenu size={27} />
+                        <CgMenu size={47} />
                     </TextMenu>
                 </li>
                 <ul>

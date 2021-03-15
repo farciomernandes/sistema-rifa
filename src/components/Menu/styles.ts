@@ -48,8 +48,9 @@ export const TextMenu = styled.a`
     padding: 5px;
     text-align: center;
     color: white;
-    font-size: 1.4em;
-
+    font-size: 1.5em;
+    position: relative;
+    top: 12px;
     &:hover {
         ul {
             visibility: visible;
@@ -61,12 +62,14 @@ export const TextMenu = styled.a`
 
 export const HeaderLeft = styled.div`
     min-height: 5vh;
-    font-size: 1.5em;
+    font-size: 2.5em;
     height: 100%;
     width: 100%;
     margin-top: 0.7em;
 
     a {
         margin-left: 1em;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
     }
 `;

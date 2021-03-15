@@ -29,7 +29,11 @@ const Dashboard: React.FC = () => (
         </Header>
         <SlideRifa>
             <TextSlide>
-                <h3>Pop 100</h3>
+                <h3>
+                    {' '}
+                    <b>Pop</b>
+                    <i> 100</i>
+                </h3>
             </TextSlide>
             <img
                 src="https://i.ytimg.com/vi/aPlbIYT_zLM/maxresdefault.jpg"
@@ -107,6 +111,7 @@ const Dashboard: React.FC = () => (
             </p>
             <NumberCard>
                 <h1>1</h1>
+                <h2>ESCOLHA O SORTEIO</h2>
                 <p>
                     Escolha ao prêmio que gostaria de concorrer, verifique a
                     descrição e o regulamento.
@@ -114,6 +119,8 @@ const Dashboard: React.FC = () => (
             </NumberCard>
             <NumberCard>
                 <h1>2</h1>
+                <h2>ESCOLHA SEUS NÚMEROS</h2>
+
                 <p>
                     Escolha os numeros quantos numeros puder, mais numeros mais
                     chances de ganhar.
@@ -121,6 +128,8 @@ const Dashboard: React.FC = () => (
             </NumberCard>
             <NumberCard>
                 <h1>3</h1>
+                <h2>EFETUE O PAGAMENTO</h2>
+
                 <p>
                     Faça o pagamento e envie o comprovante ao administrador do
                     sorteio.
@@ -128,6 +137,8 @@ const Dashboard: React.FC = () => (
             </NumberCard>
             <NumberCard>
                 <h1>4</h1>
+                <h2>ESPERE O SORTEIO</h2>
+
                 <p>Espere o sorteio e tenha fé que irar ganhar!</p>
             </NumberCard>
         </PassoaPasso>
