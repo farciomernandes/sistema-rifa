@@ -3,7 +3,7 @@
 import React, { useCallback } from 'react';
 import { CgMenu } from 'react-icons/cg';
 
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import { Menu, ScrollMenu, NewItemMenu, TextMenu, HeaderLeft } from './styles';
 
@@ -26,7 +26,12 @@ const FlexMenu: React.FC = () => {
                     </li>
                     <ul>
                         <li>
-                            <TextMenu href="/">Rifa</TextMenu>
+                            <TextMenu href="/">Inicio</TextMenu>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <TextMenu href="/rifa">Rifa</TextMenu>
                         </li>
                     </ul>
                     <ul>
