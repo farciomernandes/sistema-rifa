@@ -27,7 +27,9 @@ const Dashboard: React.FC = () => (
         <Header>
             <FlexMenu />
         </Header>
+
         <SlideRifa>
+            <hr />
             <TextSlide>
                 <h3>
                     {' '}

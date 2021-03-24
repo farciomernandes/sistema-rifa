@@ -41,6 +41,7 @@ export const TextSlide = styled.div`
     font-size: 5vw;
     position: absolute;
     left: 10%;
+    z-index: 0;
     top: 31%;
     color: white;
     h3 {

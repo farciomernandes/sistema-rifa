@@ -8,24 +8,29 @@ export const Menu = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #8900e9;
     color: white;
 `;
 
-export const ScrollMenu = styled.nav`
+export const ScrollMenu = styled.div`
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
+    margin-left: 18px;
     align-items: center;
-    position: relative;
 `;
 
 export const NewItemMenu = styled.li`
     height: 100%;
+    top: 1vh;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    margin-top: 2em;
-    display: block;
-    width: 4em;
+    width: 100%;
+    p {
+        margin-left: 5vw;
+    }
+
     //12em em web
     ul {
         li {
@@ -35,9 +40,22 @@ export const NewItemMenu = styled.li`
         visibility: hidden;
     }
     &:hover {
+        position: absolute;
+        height: 100%;
+        z-index: 99;
         ul {
             visibility: visible;
             color: white;
+            background-color: #8900e9;
+            width: 100%;
+
+            a {
+                background-color: #8900e9;
+                width: 100%;
+                display: block;
+                text-align: start;
+                font-size: 1em;
+            }
         }
     }
 
@@ -54,6 +72,7 @@ export const TextMenu = styled.a`
     &:hover {
         ul {
             visibility: visible;
+            height: 100%;
         }
     }
 
@@ -62,13 +81,15 @@ export const TextMenu = styled.a`
 
 export const HeaderLeft = styled.div`
     min-height: 5vh;
-    font-size: 2.5em;
+    font-size: 2em;
     height: 100%;
     width: 100%;
     margin-top: 0.7em;
+    margin-right: 0.7em;
+
+    text-align: end;
 
     a {
-        margin-left: 1em;
         font-family: 'Lato', sans-serif;
         font-weight: bold;
     }
