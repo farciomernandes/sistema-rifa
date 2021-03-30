@@ -3,7 +3,10 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     color: white;
-    width: 100vw;
+    min-width: 100vw;
+    @media (max-width: 320px) {
+        border: 3px solid blue;
+    }
 `;
 
 export const TopItems = styled.div`

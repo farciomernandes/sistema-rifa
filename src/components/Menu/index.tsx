@@ -46,7 +46,7 @@ const FlexMenu: React.FC = () => {
                     </ul>
                     <ul>
                         <li>
-                            <TextMenu href="/">Login</TextMenu>
+                            <TextMenu href="/login">Login</TextMenu>
                         </li>
                     </ul>
                 </NewItemMenu>

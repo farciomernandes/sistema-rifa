@@ -22,7 +22,7 @@ export const Card = styled.div`
     text-align: center;
     width: 80%;
     height: 100%;
-    min-height: 40vh;
+    min-height: 60vh;
 
     h1 {
         font-size: 1.2em;
@@ -34,7 +34,7 @@ export const Card = styled.div`
         display: flex;
         flex-direction: column;
         section {
-            margin: 15px 0;
+            margin: 5px 0;
             span {
                 position: relative;
                 top: 0.5em;
@@ -69,4 +69,5 @@ export const Button = styled.button`
     color: #fff;
     font-weight: bold;
     border-radius: 5px;
+    margin-top: 5px;
 `;

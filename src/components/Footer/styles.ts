@@ -12,7 +12,7 @@ export const Container = styled.div`
 export const MidiaSocial = styled.div`
     width: 100vw;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
     background-color: white;
     font-size: 4.5vw;

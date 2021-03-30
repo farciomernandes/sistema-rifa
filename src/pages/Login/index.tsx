@@ -12,7 +12,7 @@ import { Container, Card, Title, Button } from './styles';
 import Header from '../../components/Menu';
 import Footer from '../../components/Footer';
 
-const Cadastro: React.FC = () => {
+const Login: React.FC = () => {
     const [name, setName] = useState('');
     const [password, setPassword] = useState('');
     const [email, setEmail] = useState('');
@@ -32,15 +32,9 @@ const Cadastro: React.FC = () => {
             <Header />
             <Card>
                 <Title>
-                    <CreateIcon /> <h1> CRIAR UMA CONTA</h1>
+                    <CreateIcon /> <h1> LOGIN</h1>
                 </Title>
                 <form onSubmit={handleCreateUser}>
-                    <section>
-                        <span>
-                            <AccountBoxIcon />
-                        </span>
-                        <input type="text" placeholder="nome" />
-                    </section>
                     <section>
                         <span>
                             <AccessibilityIcon />
@@ -54,13 +48,13 @@ const Cadastro: React.FC = () => {
                         <input type="password" placeholder="senha" />
                     </section>
 
-                    <Button type="submit">FAZER CADASTRO</Button>
+                    <Button type="submit">FAZER LOGIN</Button>
                 </form>
                 <p>
-                    Já tem uma conta?
-                    <Link to="login">
+                    Não tem uma conta?
+                    <Link to="cadastro">
                         {' '}
-                        <span> FAÇA LOGIN</span>
+                        <span> CADASTRE-SE</span>
                     </Link>
                 </p>
             </Card>
@@ -69,4 +63,4 @@ const Cadastro: React.FC = () => {
     );
 };
 
-export default Cadastro;
+export default Login;
