@@ -2,12 +2,11 @@ import React, { useState, useEffect, useCallback } from 'react';
 
 import { Link } from 'react-router-dom';
 
-import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import AccessibilityIcon from '@material-ui/icons/Accessibility';
 import VpnKeyIcon from '@material-ui/icons/VpnKey';
 import CreateIcon from '@material-ui/icons/Create';
 import CreateUser from '../../services/CreateUser';
-import { Container, Card, Title, Button } from './styles';
+import { Container, Card, Title, Button, Input } from './styles';
 
 import Header from '../../components/Menu';
 import Footer from '../../components/Footer';
@@ -35,18 +34,19 @@ const Login: React.FC = () => {
                     <CreateIcon /> <h1> LOGIN</h1>
                 </Title>
                 <form onSubmit={handleCreateUser}>
-                    <section>
+                    <Input>
                         <span>
                             <AccessibilityIcon />
                         </span>
                         <input type="text" placeholder="email" />
-                    </section>
-                    <section>
+                    </Input>
+                    <Input>
                         <span>
                             <VpnKeyIcon />
                         </span>
+
                         <input type="password" placeholder="senha" />
-                    </section>
+                    </Input>
 
                     <Button type="submit">FAZER LOGIN</Button>
                 </form>

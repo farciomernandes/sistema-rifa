@@ -35,13 +35,7 @@ export const Card = styled.div`
         flex-direction: column;
         section {
             margin: 5px 0;
-            span {
-                position: relative;
-                top: 0.5em;
-                background: #8900e9;
-                color: #fff;
-                padding-top: 12px;
-            }
+
             input {
                 padding: 7px;
             }
@@ -68,6 +62,16 @@ export const Button = styled.button`
     background: #8900e9;
     color: #fff;
     font-weight: bold;
-    border-radius: 5px;
     margin-top: 5px;
+`;
+
+export const Input = styled.section`
+    border: 1px solid black;
+    display: flex;
+    padding: 2px 5px;
+    border-radius: 5px;
+
+    input {
+        border: none;
+    }
 `;

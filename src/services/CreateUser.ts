@@ -2,7 +2,7 @@
 import Firebase from '../utils/initializeFirebase';
 import 'firebase/auth';
 
-import crypto from 'crypto';
+// import crypto from 'crypto';
 
 interface IRequestuser {
     name: string;
