@@ -7,7 +7,7 @@ import AccessibilityIcon from '@material-ui/icons/Accessibility';
 import VpnKeyIcon from '@material-ui/icons/VpnKey';
 import CreateIcon from '@material-ui/icons/Create';
 import CreateUser from '../../services/CreateUser';
-import { Container, Card, Title, Button } from './styles';
+import { Container, Card, Title, Button, Input } from './styles';
 
 import Header from '../../components/Menu';
 import Footer from '../../components/Footer';
@@ -35,24 +35,24 @@ const Cadastro: React.FC = () => {
                     <CreateIcon /> <h1> CRIAR UMA CONTA</h1>
                 </Title>
                 <form onSubmit={handleCreateUser}>
-                    <section>
+                    <Input>
                         <span>
                             <AccountBoxIcon />
                         </span>
                         <input type="text" placeholder="nome" />
-                    </section>
-                    <section>
+                    </Input>
+                    <Input>
                         <span>
                             <AccessibilityIcon />
                         </span>
                         <input type="text" placeholder="email" />
-                    </section>
-                    <section>
+                    </Input>
+                    <Input>
                         <span>
                             <VpnKeyIcon />
                         </span>
                         <input type="password" placeholder="senha" />
-                    </section>
+                    </Input>
 
                     <Button type="submit">FAZER CADASTRO</Button>
                 </form>
