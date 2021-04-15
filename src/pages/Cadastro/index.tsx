@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useCallback } from 'react';
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import React, { useState } from 'react';
 
 import { Link } from 'react-router-dom';
 
@@ -23,7 +24,6 @@ const Cadastro: React.FC = () => {
             email,
             password,
         };
-        console.log(data);
         CreateUser.create(email, password);
     }
 
